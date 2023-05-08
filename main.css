@@ -344,7 +344,11 @@ p::first-line{
     top: 0;left: 0;right: 0;
 
 }
+@media only screen and (max-width: 600px){
 
+    body {
+        background-color: rgba(230, 173, 202, 0.752);}
+    } 
 .tabs {
     display: flex;
     border: 1px solid #6a5af9;
