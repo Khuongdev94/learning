@@ -80,7 +80,11 @@ body {
         border: 3px dashed rgb(0, 255, 60);
         box-sizing: border-box;
         background-clip: border-box;
+        margin-bottom: 40px;
 
+}
+    .box1+.box1{
+        margin-bottom: 5rem;
 }
     .image {
         width: 20rem;
@@ -127,7 +131,7 @@ body {
 .sold {
     font-size: 20px;
     padding: 10px;
-    background-color: #ffa400;
+    background-color: #ffa600b4;
     border-radius: 10px;
     position: absolute;
     bottom: 15px; 
@@ -136,10 +140,10 @@ body {
 }  
 
 .fa-regular.fa-circle-xmark{
-    font-size: 20px;
+    font-size: 40px;
     position: absolute;
-    top: 3px;
-    right: 5px;
+    top: 10px;
+    right: 10px;
 
 }
 .image{
@@ -210,37 +214,37 @@ h3 {
     font-size: 30px;
 } */
 .shadow1 {
-    width: 12rem;;
-    height: 15rem;;
-    margin: auto auto;
-    background-color: aqua;
-    text-align: center;
-    font-size: 10px;
-    box-shadow: 0 0 5px 15px rgba(0, 255, 8, 0.589);
-    cursor: pointer;
+        width: 12rem;;
+        height: 15rem;;
+        margin: auto auto;
+        background-color: aqua;
+        text-align: center;
+        font-size: 10px;
+        box-shadow: 0 0 5px 15px rgba(0, 255, 8, 0.589);
+        cursor: pointer;
 
 }
 .shadow {
-    width: 20rem;
-    height: 25rem;
-    margin: 30px auto;
-    background-color: aqua;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 60px;
-    white-space: nowrap;
-    box-shadow: 0 0 20px 15px rgba(34, 255, 0, 0.315);
-    cursor: grab;
-    transition: background-color 2s ease-in ;
-    overflow: hidden;
-    text-overflow: ellipsis;
+        width: 20rem;
+        height: 25rem;
+        margin: 30px auto;
+        background-color: aqua;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 60px;
+        white-space: nowrap;
+        box-shadow: 0 0 20px 15px rgba(34, 255, 0, 0.315);
+        cursor: grab;
+        transition: background-color 2s ease-in ;
+        overflow: hidden;
+        text-overflow: ellipsis;
 }
 .shadow:hover {
     background-color: rgb(204, 255, 0);
     box-shadow: 0 0 6px 15px rgba(255, 17, 0, 0.433);
     cursor: grab;
     color: rgb(5, 138, 3);
-    }
+}
 
 .backgroudgirl{
         width: 30rem;
