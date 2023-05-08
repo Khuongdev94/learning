@@ -433,3 +433,21 @@ p::first-line{
     box-shadow: 0 0 5px 12px rgba(0, 116, 77, 0.312);
     margin: 4rem auto;
   } 
+  .picture1{
+    display: inline-block;
+    max-width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    /* margin: 20px auto; */
+    text-align: center;
+    border-radius: 50%;
+  }
+  .inline{
+    text-align: center;
+  
+  }
+  p{
+    font-size: 4rem;
+    text-align: center;
+
+  }
