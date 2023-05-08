@@ -17,6 +17,7 @@ body {
     box-sizing: border-box;
     height: 2000px;
     padding-top: 2rem;
+    font-style: italic;
 }
     .header{
     min-width: 50px;
