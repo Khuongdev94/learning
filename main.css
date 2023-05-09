@@ -1,16 +1,16 @@
 
-:root { 
+    :root { 
     color: rgba(4, 255, 0, 0.952);
 }
 
 *{ 
     box-sizing: inherit;}
-html{
+    html {
     font-size: 62.5%;
     line-height: 1.3;
 }
 
-body {   
+    body {   
     font-family: 'Roboto', sans-serif;
     font-size: 1.6rem;
     font-weight: 500;
@@ -27,7 +27,6 @@ body {
     border-radius: 5px;
     border: 2px solid green;
     font-size: 1rem;
-
 }
      /* img { 
     display: block;
@@ -344,7 +343,7 @@ p::first-line{
     top: 0;left: 0;right: 0;
 
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 
     body {
         background-color: rgba(230, 173, 202, 0.752);}
@@ -358,12 +357,12 @@ p::first-line{
   .tabs .tab-item:not(:first-child) {
     border-right: 1px solid #6a5af9;
   }
-  
+
   .tabs .tab-item.active {
     color: white;
     background-color: #6a5af9;
   }
-  
+
   .tabs .tab-item {
     white-space: nowrap;
     padding: 10px 15px;
@@ -417,8 +416,6 @@ p::first-line{
     color: yellow;
     align-items: center;
   }
-
-  
   .tag{
     width: 20rem;height: 30rem;
     background-color: #e4086b64;
@@ -451,7 +448,19 @@ p::first-line{
     text-align: center;
     border-top: 3px;
     box-shadow: 0 0 3px 10px rgba(0, 128, 0, 0.575);
-    margin: 10px auto;
-    color: #0808e4
-    
+    margin: 10px;
+    margin-right: 10px;
+    margin-left: auto;
+    color: #0808e4;
+    border-radius: 10px;
   }
+
+  @media only screen and (max-width: 600px){
+    .maybe {
+        background-color: rgba(173, 209, 230, 0.634);}
+    } 
+    .t-showdow{
+        font-size: 40px;
+        font-weight: bold;
+        text-shadow: 0 0 18px rgba(0, 128, 0, 0.816);
+    }
