@@ -417,17 +417,8 @@ p::first-line{
     color: yellow;
     align-items: center;
   }
-  .computer__price--cheap{
-    height: 50%;
-    color: red;
-    align-items: center;
-    border-bottom: 2px dashes black;
-  }
-  .computer__price--expensive{
-    height: 50%;
-    color: rgb(34, 255, 0);
-    align-items: center;
-  }
+
+  
   .tag{
     width: 20rem;height: 30rem;
     background-color: #e4086b64;
