@@ -464,3 +464,29 @@ p::first-line{
         font-weight: bold;
         text-shadow: 0 0 18px rgba(128, 0, 62, 0.675);
     }
+    .color-item{
+        width: 5rem;
+        height: 8rem;
+        display: inline-block;
+        border-radius: 6px;
+        margin: 1rem;
+        box-shadow: 0 0 2px 5px rgba(184, 70, 70, 0.249);
+    }
+    .color-item:first-child{
+        background-color:  #007bff88;
+    }
+    .color-item:nth-child(2){
+        background-color:  #626a7188;
+    }
+    .color-item:nth-child(3){
+        background-color:  #ff001188;
+    }
+    .color-item:nth-last-child(2){
+        background-color:  #00ff7788;
+    }
+    .color-item:nth-last-child(3){
+        background-color:  #ff220088;
+    }
+    .color-item:last-child{
+        background-color:  #e1f40aa3;
+    }
