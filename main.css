@@ -447,7 +447,7 @@ p::first-line{
     background-color: red;
     text-align: center;
     border-top: 3px;
-    box-shadow: 0 0 3px 10px rgba(0, 128, 0, 0.575);
+    box-shadow: 0 0 2px 10px rgba(0, 128, 0, 0.575);
     margin: 10px;
     margin-right: 10px;
     margin-left: auto;
@@ -462,5 +462,5 @@ p::first-line{
     .t-showdow{
         font-size: 40px;
         font-weight: bold;
-        text-shadow: 0 0 18px rgba(0, 128, 0, 0.816);
+        text-shadow: 0 0 18px rgba(128, 0, 62, 0.675);
     }
