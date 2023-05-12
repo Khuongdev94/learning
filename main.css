@@ -163,7 +163,7 @@
         border-radius: 10px;
         background-color: #0846e4;
 }
-.bt:hover{
+    .bt:hover{
         color: #ffa400;
         background-color: blue;
 
@@ -260,6 +260,10 @@ h3 {
         font-size: 100px;
         font-weight: bolder;
     }
+    li{
+        list-style-type: square;
+    }
+
   
     li:first-child{
         color:  aqua;
